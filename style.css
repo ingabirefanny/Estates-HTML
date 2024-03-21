@@ -1,13 +1,13 @@
 nav{
     margin-left: 15%;
     padding-left: 2%;
-
+    margin-bottom: 100px;
     
 }
 
 a{
 text-decoration: none;
-margin-left: 90px;
+margin-left: 50px;
 row-gap: 100%;
 color: black;
 }
@@ -76,6 +76,108 @@ input{
     justify-content: space-evenly;
 }
 
+.company{
+    border-radius: 40px;
+     height: 40px; width: 30%; 
+     color: white; 
+     background-color: rgb(14, 14, 125); 
+     margin-left: 33%;
+}
+.home{
+    display: flex;
+}
+
 form{
     padding: 5%;
+    overflow: hidden;
+}
+
+.bar{
+    display: flex;
+    margin-left: 1%;
+}
+
+@media screen and (min-width:280px) and (max-width:900px){
+    body{
+
+        .footer{
+            display: flex;
+            gap: 1%;
+            flex-wrap: wrap;
+        }
+
+        .copyright{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .buyers{
+            display: flex;
+            padding-left: 20%;
+            flex-wrap: wrap;
+        }
+
+        .house{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .payments{
+            display: flex;
+            margin-left: 180px;
+            flex-wrap: wrap;
+        }
+
+        .purchases{
+            margin-left: 80px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .company{
+            border-radius: 40px;
+             height: 40px;
+              width: 30%; 
+             color: white; 
+             background-color: rgb(14, 14, 125); 
+             margin-left: 33%;
+        }
+        a{
+            text-decoration: none;
+            margin-left: 50px;
+            row-gap: 100%;
+            color: black;
+            }
+
+            nav{
+flex-wrap: wrap;                
+            }
+                .bar{
+                    display: flex;
+                    margin-left: 1%;
+                }
+                .home{
+                    flex-wrap: wrap;
+                }
+
+    
+
+            .prices{
+                margin-left: 4%;
+                margin-top: 5%;
+                flex-wrap: wrap;
+            }
+    }
+
+    .Bhouses{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    form{
+        flex-wrap: wrap;
+    }
+
 }
